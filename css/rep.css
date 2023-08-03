@@ -1,0 +1,89 @@
+.oxygen-home *,
+.oxygen-home ::after,
+.oxygen-home ::before {
+    box-sizing: border-box !important;
+}
+
+
+.oxygen-home .profimg {
+    width: 100%;
+    aspect-ratio: auto;
+}
+
+.oxygen-home .carousel-item.active {
+    border: none;
+}
+
+.oxygen-home .footer2 div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .oxygen-home .about-sub {
+        text-align: left;
+    }
+
+    .oxygen-home .heading_footer {
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 54px;
+        color: #fff;
+        text-align: left;
+    }
+
+    .oxygen-home .testimonial {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .oxygen-home .carousel_rating {
+        margin: auto;
+    }
+
+    .oxygen-home .carousel_des {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #16213c;
+    }
+
+    .oxygen-home .carousel-control-next-icon img,
+    .oxygen-home .carousel-control-prev-icon img {
+        width: 35% !important;
+        background: 0 0 !important;
+        aspect-ratio: 0.5945945946;
+    }
+
+    .oxygen-home .text-left {
+        text-align: left !important;
+    }
+
+    .oxygen-home .profile-social img {
+        margin: 0;
+        width: 36px;
+    }
+
+    .oxygen-home .profile-social {
+        justify-content: left;
+    }
+
+    .oxygen-home .profile_mail {
+        font-size: 16px;
+    }
+
+    .oxygen-home .socialimg {
+        width: 36px;
+    }
+
+    .oxygen-home .about-text {
+        text-align: left;
+    }
+
+    .oxygen-home .side-icon {
+        width: 23px;
+        display: inline-block;
+        aspect-ratio: auto;
+    }
+}

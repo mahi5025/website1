@@ -1,0 +1,2624 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.oxygen-home .navbar,
+.oxygen-home .navbar a,
+.oxygen-home .navbar a:hover {
+    color: #000;
+}
+
+.oxygen-home .top-button {
+    color: red;
+    background-color: white;
+    line-height: 20px;
+    border: 1px solid red;
+    height: 45px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+    font-size: 16px;
+    width: 180px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.oxygen-home .imgpic {
+    display: initial !important;
+}
+
+.oxygen-home *,
+.oxygen-home ::after,
+.oxygen-home ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.oxygen-home .footer_btn,
+.oxygen-home .hero-button {
+    padding: 15px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.oxygen-home .desktop-hide,
+.oxygen-home .main_mob_img,
+.oxygen-home .mob-social,
+.oxygen-home .mob-vie,
+.oxygen-home .navbar .hamburger-lines,
+.oxygen-home .navbar input[type=checkbox] {
+    display: none;
+}
+
+.oxygen-home .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.oxygen-home .navbar {
+    width: 100%;
+    background: #fff;
+    opacity: 0.85;
+    z-index: 100;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.oxygen-home .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.oxygen-home .menu-items {
+    order: 2;
+    display: flex;
+}
+
+.oxygen-home .logo {
+    order: 0;
+    font-size: 2.3rem;
+    width: 15%;
+}
+
+.oxygen-home .menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.oxygen-home .navbar a {
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.oxygen-home .heading_one {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #16213c;
+}
+
+.oxygen-home .heading_three,
+.oxygen-home .heading_two {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #16213c;
+    text-align: center;
+}
+
+.oxygen-home .heading_two {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.oxygen-home .heading_three {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.oxygen-home .footer_text,
+.oxygen-home .heading_footer,
+.oxygen-home .hero-button {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.oxygen-home .heading_three span {
+    color: red;
+    font-weight: 600;
+}
+
+.oxygen-home .main_desktop_img {
+    width: 100%;
+}
+
+.oxygen-home .hero-button {
+    background: white;
+    color: red;
+    border: 1px solid red;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.oxygen-home .hero-button2 {
+    background: red;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.oxygen-home .funnel1,
+.oxygen-home .funnel2 {
+    height: 480px;
+}
+
+.oxygen-home .footer1 {
+    width: 60% !important;
+}
+
+.oxygen-home .footer2 {
+    width: 40% !important;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.oxygen-home .footer2 a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.oxygen-home .footer1 img {
+    margin-right: 5%;
+}
+
+.oxygen-home .button-container {
+    text-align: center;
+    margin-top: 2rem !important;
+}
+
+.oxygen-home .heading_footer {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 54px;
+}
+
+.oxygen-home .footer_section {
+    background: #00518d;
+    margin-top: 3rem !important;
+}
+
+
+
+.oxygen-home .footer_text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    width: 70%;
+}
+
+.oxygen-home .footer_btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #00518d;
+    background: #fff;
+}
+
+.oxygen-home .pl-5 {
+    padding-left: 100px !important;
+}
+
+.oxygen-home .footer_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.oxygen-home .about,
+.oxygen-home .profile_desk_name,
+.oxygen-home .profile_desktop {
+    color: #16213c;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.oxygen-home .profile_desktop {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.oxygen-home .about,
+.oxygen-home .profile_desk_name {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: uppercase;
+}
+
+.oxygen-home .profile_description {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+    color: rgba(22, 33, 60, .79);
+}
+
+.oxygen-home .about-sub,
+.oxygen-home .profile_mail {
+    color: #16213c;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.oxygen-home .profile_mail {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.oxygen-home .profile-social {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.oxygen-home .profile-social img {
+    margin: 10px;
+}
+
+.oxygen-home .section-spacing {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.oxygen-home .text-left {
+    text-align: left !important;
+}
+
+.oxygen-home .about-sub {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.oxygen-home .side-icon {
+    padding-right: 15px;
+    width: auto;
+    aspect-ratio: 1.303030303;
+}
+
+.oxygen-home .side-icon2 {
+    padding-right: 15px;
+    width: auto;
+    aspect-ratio: 0.825;
+}
+
+.oxygen-home .about-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    color: rgba(22, 33, 60, .8);
+}
+
+.oxygen-home .carousel_text,
+.oxygen-home .testimonial {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.oxygen-home .section_back {
+    background: #f8f8f8;
+}
+
+.oxygen-home .testimonial {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 54px;
+    /* text-transform: uppercase; */
+    color: #16213c;
+}
+
+.oxygen-home .carousel_text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(22, 33, 60, .8);
+}
+
+.oxygen-home .carousel_des,
+.oxygen-home .carousel_man {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #16213c;
+}
+
+.oxygen-home .carousel_man {
+    font-weight: 700;
+}
+
+.oxygen-home .carousel_des {
+    font-weight: 400;
+}
+
+.oxygen-home .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: none !important;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.oxygen-home .carousel_spacing {
+    padding: 0 50px;
+}
+
+.oxygen-home .carousel_rating {
+    width: 10%;
+}
+
+.oxygen-home .mob-space {
+    padding-top: 10px !important;
+}
+
+.oxygen-home .carousel-control-next,
+.oxygen-home .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s;
+}
+
+.oxygen-home .carousel-control-next {
+    align-items: center;
+    justify-content: end !important;
+}
+
+.oxygen-home .carousel-control-prev {
+    align-items: center;
+    justify-content: start !important;
+}
+
+.oxygen-home .carousel-control-next-icon img,
+.oxygen-home .carousel-control-prev-icon img {
+    width: 80% !important;
+    background: 0 0 !important;
+    aspect-ratio: 0.5945945946;
+}
+
+.oxygen-home .videoimg {
+    width: 100%;
+    aspect-ratio: 1.4583333333;
+}
+
+.oxygen-home .profimg {
+    width: 100%;
+    aspect-ratio: 0.9075342466;
+    padding-top: 15px;
+}
+
+.oxygen-home .socialimg {
+    width: 7%;
+    aspect-ratio: 1;
+}
+
+.oxygen-home .socialimg2 {
+    width: 10%;
+    aspect-ratio: 1;
+}
+
+.oxygen-home .quotesimg {
+    width: 4%;
+    aspect-ratio: 1.25;
+}
+
+.control {
+    width: 100%;
+    overflow: hidden;
+}
+
+.control .text {
+    position: relative;
+    color: #000;
+    font-weight: 600;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: 'Comfortaa';
+}
+
+.control .text.first-text {
+    color: black;
+}
+
+.text.sec-text:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-left: 1px solid #000;
+    animation: textchange 8s steps(30) infinite;
+}
+
+.smile-image {
+    margin-left: 160px;
+    transition: 2s;
+    margin-top: -40px;
+}
+
+.marketing-img {
+    position: relative;
+}
+
+.info {
+    rotate: 90deg;
+    position: absolute;
+    top: 237px;
+    left: -84px;
+    font-weight: 600;
+    font-size: 13px;
+    display: flex;
+    font-family: 'Comfortaa';
+    gap: 20px;
+}
+
+
+
+.txtunderline {
+    font-weight: 400;
+    font-family: 'Comfortaa';
+    position: relative;
+}
+
+.txtunderline::after {
+    content: "";
+    width: 120%;
+    height: 5px;
+    position: absolute;
+    background-image: url(../images/underline.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 28px;
+    z-index: -1;
+}
+
+
+.extunderline {
+    font-weight: 600;
+    font-family: 'Comfortaa';
+    position: relative;
+}
+
+.extunderline::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    background-image: url(../images/bigunderline.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0px;
+    bottom: -10px;
+}
+
+
+.smilunder {
+    font-family: 'Comfortaa';
+    position: relative;
+    z-index: -1;
+}
+
+.smilunder::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-image: url(../images/smile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 5px;
+    top: 20px;
+    z-index: -1;
+}
+
+@keyframes textchange {
+
+    40%,
+    60% {
+        left: calc(100% + 4px);
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .oxygen-home .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100% !important;
+        max-width: 100% !Important;
+    }
+
+    .oxygen-home .footer1 {
+        width: 100% !important;
+        margin-bottom: 5%;
+    }
+
+    .oxygen-home .footer2 {
+        width: 100% !important;
+        white-space: nowrap;
+    }
+
+    .oxygen-home .mobtext {
+        text-align: left !important;
+    }
+
+    .oxygen-home .funnel1 {
+        width: auto !important;
+        margin-bottom: 3.5rem;
+    }
+
+    .oxygen-home .funnel2 {
+        width: auto !important;
+        height: 370px;
+    }
+
+    .oxygen-home .footer_text,
+    .oxygen-home .heading_footer,
+    .oxygen-home .heading_one,
+    .oxygen-home .reps-profile {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+    }
+
+    .oxygen-home .text-left {
+        text-align: center !important;
+    }
+
+    .oxygen-home .about,
+    .oxygen-home .about-sub,
+    .oxygen-home .about-text,
+    .oxygen-home .carousel_des,
+    .oxygen-home .footer_text,
+    .oxygen-home .heading_footer,
+    .oxygen-home .mobile-align,
+    .oxygen-home .reps-profile {
+        text-align: center;
+    }
+
+    .oxygen-home .mob-space {
+        padding-top: 0 !important;
+    }
+
+    .oxygen-home .carousel_man {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .oxygen-home .carousel_rating {
+        width: 50%;
+        aspect-ratio: 4.4117647059;
+    }
+
+    .oxygen-home .carousel_des {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #16213c;
+    }
+
+    .oxygen-home .carousel_text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .oxygen-home .testimonial {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 33px;
+    }
+
+    .oxygen-home .des-hid,
+    .oxygen-home .main_desktop_img,
+    .oxygen-home .profile_desk_name,
+    .oxygen-home .profile_desktop {
+        display: none;
+    }
+
+    .oxygen-home .desktop-hide,
+    .oxygen-home .mob-vie {
+        display: block;
+    }
+
+    .oxygen-home .section-spacing {
+        margin-top: 3em !important;
+        margin-bottom: 3em !important;
+    }
+
+    .oxygen-home .about-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .oxygen-home .about {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 54px;
+    }
+
+    .oxygen-home .about-sub {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .oxygen-home .side-icon {
+        padding-right: 0;
+        width: 10%;
+    }
+
+    .oxygen-home .side-icon2 {
+        padding-right: 0;
+        width: 10%;
+    }
+
+    .oxygen-home .profile_description {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .oxygen-home .mob-social {
+        display: inline-block;
+    }
+
+    .oxygen-home .desktop-social {
+        display: none;
+    }
+
+    .oxygen-home .socialimg {
+        width: 14%;
+        aspect-ratio: 1;
+    }
+
+    .oxygen-home .socialimg2 {
+        width: 16%;
+        aspect-ratio: 1;
+    }
+
+    .oxygen-home .quotesimg {
+        width: 15%;
+        aspect-ratio: 1.25;
+    }
+
+    .oxygen-home profile_mail {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 0;
+    }
+
+    .oxygen-home .heading_footer {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 54px;
+        color: #fff;
+    }
+
+    .oxygen-home .reps-profile {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #16213c;
+    }
+
+    .oxygen-home .footer_text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #fff;
+        width: 100%;
+    }
+
+    .oxygen-home .footer_btn {
+        padding: 15px 100px;
+    }
+
+    .oxygen-home .pl-5 {
+        padding-left: 12px !important;
+        margin-top: 35px !important;
+    }
+
+    .oxygen-home .heading_one {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #16213c;
+    }
+
+    .oxygen-home .heading_three,
+    .oxygen-home .heading_two,
+    .oxygen-home .hero-button {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        line-height: 28px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .oxygen-home .heading_three {
+        font-weight: 600;
+        font-size: 21px;
+        color: #040404;
+    }
+
+    .oxygen-home .heading_two {
+        font-weight: 600;
+        font-size: 18px;
+        color: #16213c;
+    }
+
+    .oxygen-home .hero-button {
+        background: white;
+        color: red;
+        border: 1px solid red;
+        font-weight: 900;
+        font-size: 18px;
+        padding: 15px 50px;
+        text-decoration: none;
+    }
+
+    .oxygen-home .hero-button2 {
+        background: red;
+        font-weight: 900;
+        font-size: 18px;
+        color: #fff;
+        padding: 15px 50px;
+        text-decoration: none;
+    }
+
+
+    .oxygen-home .navbar {
+        opacity: 0.95;
+    }
+
+    .oxygen-home .main_mob_img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1.040247678;
+    }
+
+    .oxygen-home .navbar-container {
+        display: block;
+        position: relative;
+        height: 64px;
+    }
+
+    .oxygen-home .navbar-container input[type=checkbox] {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 30px;
+        top: 20px;
+        right: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .oxygen-home .navbar-container .hamburger-lines {
+        display: block;
+        height: 28px;
+        width: 35px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .oxygen-home .navbar-container .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #333;
+    }
+
+    .oxygen-home .navbar-container .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .oxygen-home .navbar-container .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .oxygen-home .navbar-container .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .oxygen-home .navbar .menu-items {
+        padding-top: 100px;
+        background: #fff;
+        height: 100vh;
+        width: 250px;
+        transform: translate(-150%);
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        padding-left: 40px;
+        transition: transform 0.5s ease-in-out;
+        box-shadow: 5px 0 10px 0 #aaa;
+        overflow: scroll;
+    }
+
+    .oxygen-home .navbar .menu-items li {
+        margin-bottom: 1.8rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .oxygen-home .logo {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        font-size: 2.5rem;
+        width: 40%;
+        z-index: 999;
+    }
+
+    .oxygen-home .navbar-container input[type=checkbox]:checked~.menu-items {
+        transform: translateX(0);
+    }
+
+    .oxygen-home .navbar-container input[type=checkbox]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+    }
+
+    .oxygen-home .navbar-container input[type=checkbox]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
+    }
+
+    .oxygen-home .navbar-container input[type=checkbox]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+    }
+
+    .control {
+        width: 500px;
+        overflow: hidden;
+    }
+
+    .control .text {
+        position: relative;
+        color: #000;
+        font-weight: 600;
+        overflow: hidden;
+        font-size: 25px;
+        font-family: 'Comfortaa';
+        z-index: -1;
+    }
+
+    .text.sec-text:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        border-left: 1px solid #000;
+        animation: textchange 8s steps(30) infinite;
+        z-index: 1;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .oxygen-home .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%
+    }
+
+    .oxygen-home .col-md-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%
+    }
+
+    .oxygen-home .col-md-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+
+    .oxygen-home .logo {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        font-size: 2.5rem;
+        width: 22%;
+        z-index: 999;
+    }
+
+    .oxygen-home .pl-5 {
+        padding-left: 12px !important;
+        margin-top: 0 !important;
+    }
+
+    .oxygen-home .menu-items {
+        order: 2;
+        display: flex;
+        width: 100% !important;
+        justify-content: end;
+    }
+
+    .oxygen-home .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%
+    }
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1180px) {
+    .oxygen-home .menu-items {
+        order: 2;
+        display: flex;
+        width: 100% !important;
+        justify-content: end !important;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .oxygen-home .form-control {
+        transition: none;
+    }
+}
+
+.oxygen-home .form-control[type=file]:not(:disabled):not([readonly]) {
+    cursor: pointer;
+}
+
+.oxygen-home .form-control:focus {
+    color: 000;
+    background-color: var(--bs-form-control-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25);
+}
+
+.oxygen-home .form-control::-webkit-date-and-time-value {
+    height: 1.5em;
+}
+
+.oxygen-home .form-control::-webkit-datetime-edit {
+    display: block;
+    padding: 0;
+}
+
+.oxygen-home .form-control::-moz-placeholder {
+    color: var(--bs-secondary-color);
+    opacity: 1;
+}
+
+.oxygen-home .form-control:disabled {
+    background-color: var(--bs-form-control-disabled-bg);
+    opacity: 1;
+}
+
+.oxygen-home .form-control::-webkit-file-upload-button {
+    padding: 0.375rem 0.75rem;
+    margin: -0.375rem -0.75rem;
+    -webkit-margin-end: 0.75rem;
+    margin-inline-end: 0.75rem;
+    color: var(--bs-body-color);
+    background-color: var(--bs-tertiary-bg);
+    pointer-events: none;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border-inline-end-width: var(--bs-border-width);
+    border-radius: 0;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.oxygen-home .form-control::file-selector-button {
+    padding: 0.375rem 0.75rem;
+    margin: -0.375rem -0.75rem;
+    -webkit-margin-end: 0.75rem;
+    margin-inline-end: 0.75rem;
+    color: var(--bs-body-color);
+    background-color: var(--bs-tertiary-bg);
+    pointer-events: none;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border-inline-end-width: var(--bs-border-width);
+    border-radius: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .oxygen-home .form-control::-webkit-file-upload-button {
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    .oxygen-home .form-control::file-selector-button {
+        transition: none;
+    }
+}
+
+.oxygen-home .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+    background-color: var(--bs-secondary-bg);
+}
+
+.oxygen-home .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+    background-color: var(--bs-secondary-bg);
+}
+
+.oxygen-home .form-control-sm::file-selector-button {
+    padding: 0.25rem 0.5rem;
+    margin: -0.25rem -0.5rem;
+    -webkit-margin-end: 0.5rem;
+    margin-inline-end: 0.5rem;
+}
+
+.oxygen-home .form-control-lg::file-selector-button {
+    padding: 0.5rem 1rem;
+    margin: -0.5rem -1rem;
+    -webkit-margin-end: 1rem;
+    margin-inline-end: 1rem;
+}
+
+.oxygen-home textarea.form-control {
+    min-height: calc(1.5em + .75rem + calc(var(--bs-border-width) * 2));
+}
+
+.oxygen-home .form-control-color:not(:disabled):not([readonly]) {
+    cursor: pointer;
+}
+
+.oxygen-home [data-bs-theme=dark] .form-switch .form-check-input:not(:checked):not(:focus) {
+    --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28255, 255, 255, 0.25%29'/%3e%3c/svg%3e");
+}
+
+.oxygen-home .form-floating>.form-control-plaintext:not(:-moz-placeholder-shown),
+.oxygen-home .form-floating>.form-control:not(:-moz-placeholder-shown) {
+    padding-top: 1.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.oxygen-home .form-floating>.form-control:not(:-moz-placeholder-shown)~label {
+    opacity: 0.65;
+    transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+
+.oxygen-home .input-group>.form-control:not(:focus).is-valid,
+.oxygen-home .input-group>.form-floating:not(:focus-within).is-valid,
+.oxygen-home .input-group>.form-select:not(:focus).is-valid,
+.oxygen-home .was-validated .input-group>.form-control:not(:focus):valid,
+.oxygen-home .was-validated .input-group>.form-floating:not(:focus-within):valid,
+.oxygen-home .was-validated .input-group>.form-select:not(:focus):valid {
+    z-index: 3;
+}
+
+.oxygen-home .input-group>.form-control:not(:focus).is-invalid,
+.oxygen-home .input-group>.form-floating:not(:focus-within).is-invalid,
+.oxygen-home .input-group>.form-select:not(:focus).is-invalid,
+.oxygen-home .was-validated .input-group>.form-control:not(:focus):invalid,
+.oxygen-home .was-validated .input-group>.form-floating:not(:focus-within):invalid,
+.oxygen-home .was-validated .input-group>.form-select:not(:focus):invalid {
+    z-index: 4;
+}
+
+.oxygen-home .btn:focus-visible {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+    outline: 0;
+    box-shadow: var(--bs-btn-focus-box-shadow);
+}
+
+.oxygen-home .btn-check:focus-visible+.btn {
+    border-color: var(--bs-btn-hover-border-color);
+    outline: 0;
+    box-shadow: var(--bs-btn-focus-box-shadow);
+}
+
+.oxygen-home .btn-check:checked+.btn:focus-visible,
+.oxygen-home .btn.active:focus-visible,
+.oxygen-home .btn.show:focus-visible,
+.oxygen-home .btn:first-child:active:focus-visible,
+.oxygen-home :not(.btn-check)+.btn:active:focus-visible {
+    box-shadow: var(--bs-btn-focus-box-shadow);
+}
+
+.oxygen-home .btn-link:focus-visible {
+    color: var(--bs-btn-color);
+}
+
+.oxygen-home .navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: rgba(0, 1, 0, );
+    --bs-navbar-hover-color: rgba(0, 1, 0, );
+    --bs-navbar-disabled-color: rgba(0, 0, 0, );
+    --bs-navbar-active-color: rgba(0, 1, 0, );
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: rgba(0, 1, 0, );
+    --bs-navbar-brand-hover-color: rgba(0, 1, 0, );
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: rgba(0, 0, 0, );
+    --bs-navbar-toggler-border-radius: 0.375rem;
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+.oxygen-home .navbar>.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oxygen-home .carousel {
+    position: relative;
+}
+
+.oxygen-home .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.oxygen-home .carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.oxygen-home .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .oxygen-home .carousel-item {
+        transition: none;
+    }
+}
+
+.oxygen-home .carousel-item.active {
+    display: block;
+}
+
+.oxygen-home .carousel-control-next,
+.oxygen-home .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .oxygen-home .carousel-control-next,
+    .oxygen-home .carousel-control-prev {
+        transition: none;
+    }
+}
+
+.oxygen-home .carousel-control-next:focus,
+.oxygen-home .carousel-control-next:hover,
+.oxygen-home .carousel-control-prev:focus,
+.oxygen-home .carousel-control-prev:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 0.9;
+}
+
+.oxygen-home .carousel-control-prev {
+    left: 0;
+}
+
+.oxygen-home .carousel-control-next {
+    right: 0;
+}
+
+.oxygen-home .carousel-control-next-icon,
+.oxygen-home .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.oxygen-home .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.oxygen-home .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.oxygen-home .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.oxygen-home .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+@media (min-width: 768px) {
+    .oxygen-home .col-md-5 {
+        flex: 0 0 auto;
+        width: 41.66666667% !important;
+    }
+
+    .oxygen-home .col-md-6 {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+
+    .oxygen-home .col-md-7 {
+        flex: 0 0 auto;
+        width: 58.33333333% !important;
+    }
+
+    .oxygen-home .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.oxygen-home .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(22, 33, 60, .79);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eaecef;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .oxygen-home .carousel-indicators [data-bs-target] {
+        transition: none;
+    }
+}
+
+.oxygen-home .carousel-indicators .active {
+    opacity: 1;
+}
+
+.oxygen-home .visually-hidden,
+.oxygen-home .visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.oxygen-home .d-block {
+    display: block !important;
+}
+
+.oxygen-home .w-100 {
+    width: 100% !important;
+}
+
+.oxygen-home .mt-0 {
+    margin-top: 0 !important;
+}
+
+.oxygen-home .mt-3 {
+    margin-top: 1rem !important;
+}
+
+.oxygen-home .mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.oxygen-home .mt-5 {
+    margin-top: 1rem !important;
+}
+
+.oxygen-home .mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.oxygen-home .mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.oxygen-home .mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.oxygen-home .pt-3 {
+    padding-top: 1rem !important;
+}
+
+.oxygen-home .pt-5 {
+    padding-top: 3rem !important;
+}
+
+.oxygen-home .pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.oxygen-home .text-center {
+    text-align: center !important;
+}
+
+
+.oxygen-home .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x))
+}
+
+.oxygen-home .row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y)
+}
+
+.oxygen-home img,
+svg {
+    vertical-align: middle;
+}
+
+.oxygen-home p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.oxygen-home .hero-button3 {
+    background: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #00518d;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+
+
+/* Style By Deepak */
+
+.oxygen-home .col-md-8 {
+    flex: 0 0 66.666667% !important;
+    max-width: 66.666667% !important;
+}
+
+.oxygen-home .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.oxygen-home .hero-text {
+    text-align: left !important;
+    font-size: 35px;
+    line-height: 68px;
+
+}
+
+.oxygen-home .top-phone {
+    padding-top: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.oxygen-home .play-btn {
+    margin-top: 125px;
+    align-items: end !important;
+    display: flex;
+}
+
+.oxygen-home .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.1rem !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 2.5 !important;
+    color: rgba(22, 33, 60, .79);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eaecef;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.oxygen-home .herotop-btn {
+    width: 100%;
+    background: linear-gradient(90deg, #CE0000 0%, #FF0000 104.23%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.oxygen-home .herotop-btn:hover {
+    width: 100%;
+    background: #fff;
+    color: #ff0000;
+}
+
+.oxygen-home .img-space {
+
+    margin-top: 60px !important;
+
+}
+
+.oxygen-home .faq-section {
+    margin-bottom: 35px;
+}
+
+
+.oxygen-home .padding-lft {
+
+    padding-left: 30px;
+
+}
+
+.oxygen-home .padding-rgt {
+
+    padding-left: 30px;
+
+}
+
+.oxygen-home .text-spacing {
+    margin-top: 45px;
+}
+
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+
+    /* STYLES HERE */
+    .oxygen-home .play-btn {
+        margin-top: 5px;
+        align-items: end !important;
+        display: flex;
+    }
+
+    .oxygen-home .padding-lft {
+
+        padding-left: 0px;
+
+    }
+
+    .oxygen-home .padding-rgt {
+
+        padding-left: 0px;
+
+    }
+
+    .oxygen-home .text-spacing {
+        margin-top: 5px;
+    }
+}
+
+
+
+
+/* Style By Deepak 16-05-2023 */
+
+.oxygen-home .form-back {
+    background: #F5F5F5;
+    border: 1px solid #DFE4EA;
+    border-radius: 5px;
+    padding: 15px 50px 50px 50px;
+}
+
+.oxygen-home .form-head {
+    text-align: center !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 149.19% !important;
+    color: #000000 !important;
+    padding-bottom: 15px;
+}
+
+.oxygen-home .hero-textt {
+    font-style: normal;
+    font-weight: 700;
+    color: #B30000;
+    font-size: 50px;
+    line-height: 129%;
+    text-align: left;
+    font-family: 'Comfortaa';
+}
+
+.oxygen-home .hero-texttt {
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    font-size: 50px;
+    line-height: 129%;
+    text-align: left;
+    font-family: 'Comfortaa';
+}
+
+.oxygen-home .hero-textt span {
+    background: Red linear-gradient(45deg, #00000059, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.oxygen-home .hero-text-bottom {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    line-height: 156.7%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.oxygen-home .hero-text-bottom span {
+    font-weight: 700;
+}
+
+.oxygen-home .hero-img img {
+    width: 100%;
+}
+
+.oxygen-home .video-txt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    font-family: 'Roboto';
+    text-align: left;
+    text-decoration: none;
+}
+
+
+.oxygen-home .video-txt span img {
+    width: 7%;
+    padding: 0 6px 0 6px;
+}
+
+.oxygen-home .video-txtt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: right;
+    color: #FF0000;
+}
+
+.oxygen-home .web-story {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #272727;
+}
+
+.oxygen-home .profile_desktop {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+
+}
+
+.oxygen-home .profile_description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: justify;
+
+    color: #2B2B2B;
+    border-bottom: 1px solid #C2C2C2;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.oxygen-home .reps-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #040404;
+
+}
+
+.oxygen-home .reps-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #090909;
+
+}
+
+.oxygen-home .reps-email a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-decoration: none;
+    color: #090909;
+
+}
+
+.oxygen-home .col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.oxygen-home .reps-de {
+    padding-top: 15px;
+}
+
+
+.oxygen-home .reps-btn {
+    font-family: 'Roboto';
+    background: linear-gradient(90deg, #CC0D0D 0%, #FF0000 104.23%);
+    border: 2px solid linear-gradient(90deg, #CC0D0D 0%, #FF0000 104.23%);
+    border-radius: 7px;
+    color: #fff;
+    padding: 20px 42px 20px 42px;
+}
+
+.oxygen-home .reps-btn :hover {
+    font-family: 'Roboto';
+    background: #fff;
+    border: 2px solid linear-gradient(90deg, #CC0D0D 0%, #FF0000 104.23%);
+    border-radius: 7px;
+    color: linear-gradient(90deg, #CC0D0D 0%, #FF0000 104.23%);
+    padding: 20px 42px 20px 42px;
+}
+
+.oxygen-home .reps-btn-align {
+    text-align: end;
+}
+
+.oxygen-home .back-col {
+    background: linear-gradient(90deg, #AC3030 0%, #FF0000 104.23%);
+    padding-top: 100px !important;
+    padding-bottom: 70px !important;
+}
+
+.oxygen-home .red-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.oxygen-home .red-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 175% */
+    padding-top: 50px;
+
+    color: #FFFFFF;
+}
+
+.oxygen-home .middle-btn {
+    background: linear-gradient(270deg, #FFFFFF 8.93%, #FFFFFF 112.7%);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    padding: 20px 50px 20px 50px;
+    border: 0px;
+    text-align: center;
+
+    color: #FF0000;
+}
+
+
+.oxygen-home .form-below {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+
+.oxygen-home .market-sm {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* Red Gradient */
+
+    background: linear-gradient(90deg, #AC3030 0%, #FF0000 104.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.oxygen-home .market-main {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 62px;
+
+    color: #040404;
+}
+
+.oxygen-home .marketing-right1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.oxygen-home .marketing-right2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.oxygen-home .row-brdr {
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.oxygen-home .partner {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    /* Red Gradient */
+
+    background: linear-gradient(90deg, #AC3030 0%, #FF0000 104.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.oxygen-home .partner-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.oxygen-home .logo-part {
+    padding: 10px;
+    width: 25%;
+}
+
+.oxygen-home .logo-part img {
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* CSS BY JASWINDER */
+
+
+.oxygen-home .title-red {
+    color: #ff0000;
+}
+
+.oxygen-home .carousel_text,
+.oxygen-home .section-title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.oxygen-home .section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 54px;
+    /* text-transform: uppercase; */
+    color: #16213c;
+}
+
+.oxygen-home .section-title-left {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 54px;
+    /* text-transform: uppercase; */
+    color: #16213c;
+
+}
+
+.oxygen-home .section-gray {
+    background-color: #F4F4F4;
+    margin-bottom: 0px !important;
+}
+
+.oxygen-home .long-button {
+    width: 100%;
+    background: linear-gradient(90deg, #AC3030 0%, #FF0000 104.23%) !important;
+    color: #ffffff !important;
+}
+
+.oxygen-home .sub-titles {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 54px;
+    /* text-transform: uppercase; */
+    color: #16213c;
+}
+
+.oxygen-home .funnel1,
+.oxygen-home .funnel2 {
+    height: 360px !important;
+}
+
+.oxygen-home .heading_funnel {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #16213c;
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.oxygen-home .back-col {
+    background: linear-gradient(90deg, #AC3030 0%, #FF0000 104.23%);
+    padding-top: 100px !important;
+    padding-bottom: 70px !important;
+}
+
+.oxygen-home .red-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.oxygen-home .red-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 50px;
+
+    color: #FFFFFF;
+}
+
+.oxygen-home .middle-btn {
+    background: linear-gradient(270deg, #FFFFFF 8.93%, #FFFFFF 112.7%);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 50px 20px 50px;
+    border: 0px;
+    text-align: center;
+    color: #FF0000;
+}
+
+
+.oxygen-home .form-below {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+
+/*************accordian css start***************/
+.oxygen-home .accordion {
+    background-color: #fff;
+    font-weight: 500;
+    color: #ff0000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    border-bottom: 1px solid #000 !important;
+}
+
+.oxygen-home .active,
+.oxygen-home .accordion:hover {
+    background-color: #fff;
+}
+
+.oxygen-home .accordion:after {
+    content: '\002B';
+    color: #ff0000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.oxygen-home .panel {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+}
+
+.oxygen-home .panel p {
+    margin-top: 13px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+/*************accordian css end***************/
+
+.oxygen-home .mob-view {
+    display: none;
+}
+
+.oxygen-home .desk-view {
+    display: block;
+}
+
+.oxygen-home .part-btn {
+    text-align: center !Important;
+}
+
+
+@media screen and (min-device-width: 300px) and (max-device-width: 767px) {
+    .oxygen-home .mob-h {
+        display: none;
+    }
+
+    .oxygen-home .top-phone {
+        padding-top: 5%;
+        align-items: center;
+        display: flex;
+        justify-content: end;
+        display: none;
+    }
+
+    .oxygen-home .hero-textt {
+        font-size: 26px;
+
+    }
+
+    .oxygen-home .hero-text-bottom {
+        font-size: 20px;
+    }
+
+    .oxygen-home .video-txt {
+        font-size: 16px;
+    }
+
+    .oxygen-home .video-txtt {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .oxygen-home .mon-b-al {
+        text-align: center;
+    }
+
+    .oxygen-home .form-head {
+
+        font-size: 16px !important;
+    }
+
+    .oxygen-home .form-back {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .oxygen-home .profile-social {
+
+        display: block !important;
+    }
+
+    .oxygen-home .profile_description {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .oxygen-home .mob-view {
+        display: block;
+    }
+
+
+    .oxygen-home .desk-view {
+        display: none;
+    }
+
+    .oxygen-home .funnel1 {
+        width: auto !important;
+        margin-bottom: 3.5rem;
+        margin-top: 1em;
+    }
+
+    .oxygen-home .funnel2 {
+        margin-top: 1em;
+        width: auto !important;
+        height: 370px;
+    }
+
+    .oxygen-home .reps-btn-align {
+        text-align: center !important;
+    }
+
+    .oxygen-home .red-head {
+        font-size: 28px;
+    }
+
+    .oxygen-home .red-text {
+        font-size: 16px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+    .oxygen-home .market-sm {
+        font-size: 18px;
+    }
+
+    .oxygen-home .market-main {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .oxygen-home .marketing-right1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .oxygen-home .red-strip {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 100% !Important;
+    }
+
+    .oxygen-home .red-heading {
+        font-weight: 500;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    section.section-spacing.mt-5.pt-5.mb-5.pb-5.section_back {
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .oxygen-home .section-title-left {
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+
+    .oxygen-home .mob-hide {
+        display: none;
+    }
+
+    .oxygen-home .heading_footer {
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 54px;
+        color: #fff;
+        text-align: center !important;
+    }
+
+    .oxygen-home .footer_text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #fff;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .oxygen-home .reps-mob {
+        justify-content: center;
+    }
+
+    .oxygen-home .reps-de {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    img.imgpic {
+        height: 50px !important;
+    }
+
+}
+
+/**********Navigation code new jaswinder***************/
+.oxygen-home nav {
+    height: 80px;
+    width: 100%;
+}
+
+.oxygen-home label.logo {
+    color: #000;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.oxygen-home nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.oxygen-home nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.oxygen-home nav ul li a {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+.oxygen-home a.active,
+.oxygen-home a:hover {
+    Color: #ff0000;
+    transition: .5s;
+}
+
+.oxygen-home .checkbtn {
+    font-size: 30px;
+    color: #ff0000;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.oxygen-home #check {
+    display: none;
+}
+
+.oxygen-home span.round-text img {
+    position: absolute;
+    left: 16%;
+    bottom: 145px;
+}
+
+@media (max-width: 952px) {
+    .oxygen-home label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .oxygen-home nav ul li a {
+        font-size: 16px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 858px) {
+    .oxygen-home .checkbtn {
+        display: block;
+    }
+
+    .oxygen-home ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .oxygen-home nav ul li {
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+
+    .oxygen-home nav ul li a {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .oxygen-home a:hover,
+    .oxygen-home a.active {
+        background: none;
+        color: #fff;
+    }
+
+    .oxygen-home #check:checked~ul {
+        left: 0;
+        z-index: 1;
+    }
+
+
+}
+
+
+.oxygen-home .hero-img-1 img {
+    width: 100%
+}
+
+.oxygen-home button.acss3a221 {
+    background-color: #8B8787;
+    border: 1px solid #8B8787;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.oxygen-home button.acss73eae {
+    background-color: #D60C21;
+    border: 1px solid #D60C21;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.oxygen-home .btn-group button {
+    padding: 10px 24px;
+    margin-right: 6px;
+    cursor: pointer;
+    float: left;
+    border-radius: 13px;
+    font-family: 'Comfortaa';
+}
+
+.oxygen-home .hero-text-bottom-3 {
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    ;
+    font-size: 50px;
+    line-height: 129%;
+    text-align: left;
+    font-family: 'Comfortaa';
+}
+
+.oxygen-home .small-text {
+    font-weight: 700;
+    color: #000;
+    ;
+    font-size: 25px;
+    line-height: 129%;
+    text-align: left;
+    padding-top: 12px;
+    font-family: 'Comfortaa';
+}
+
+.oxygen-home .second-section h3 {
+    color: #000;
+    ;
+    font-size: 32px;
+    line-height: 129%;
+    text-align: left;
+    padding-top: 12px;
+    font-family: 'Comfortaa';
+}
+
+.oxygen-home .second-sec-img {
+    width: 100%;
+}
+
+.oxygen-home .our-clients h3 {
+    text-align: center;
+}
+
+.oxygen-home .clients-logos img {
+    margin: 17px 4.2% 0 4.2%;
+    display: inline;
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.oxygen-home .btn-group-2 .btn-grp-2 {
+    background-color: #D60C21;
+    border: 1px solid #D60C21;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 24px;
+    text-align: center;
+    margin: 17px auto;
+    display: block;
+    border-radius: 13px;
+    font-family: 'Comfortaa';
+}
+
+.oxygen-home .spacingtop {
+    margin-top: 120px
+}
+
+.oxygen-home .spacingtop-small {
+    margin-top: 60px
+}
+
+.oxygen-home .free-float-img img {
+    width: 100%
+}
+
+.oxygen-home .center {
+    text-align: center !important;
+}
+
+.oxygen-home .testimonal-part {
+    width: 80%;
+    margin: 17px auto;
+}
+
+.oxygen-home .testimonal-part img {
+    width: 100%;
+}
+
+.oxygen-home .iphone-head,
+.oxygen-home .funnel-head {
+    text-align: center;
+}
+
+.oxygen-home .marketing-img img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.oxygen-home .funnel-img img {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+    .oxygen-home .clients-logos img {
+        margin: 17px 0px 10px 24px;
+    }
+
+    .oxygen-home .funnel-img img {
+        width: 50%;
+    }
+
+    .oxygen-home .col-md-8 {
+        max-width: 100% !important;
+        flex: 100% !important;
+    }
+
+    .oxygen-home .col-md-4 {
+        max-width: 100% !important;
+        flex: 100% !important;
+    }
+}
